@@ -1,0 +1,52 @@
+
+
+body{
+	background:url("img/logo.jpg")no-repeat center fixed;
+	background-size: cover:
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */ 
+	width:100%;
+	 margin:0;
+  padding:0;
+}
+
+
+.Titre{
+background-image: url("img/logo.jpg");	
+padding-top: 5px;
+height: 5px;
+margin-bottom: 100px;
+margin-left: 5px;
+margin-right: 5px;
+margin-top: 5px;
+font-family: 'Maven Pro', sans-serif;
+font-size: 100%
+}
+
+
+
+.container-left{
+padding: 30px;
+background-color: #B388FF;
+width: 50%;
+}
+.container-right{
+background-color: #EA80FC;
+width: 50%;
+padding: 30px;
+}
+.news2{
+margin-top: 50px;
+}
+
+/* mise en horizontal des blocs 2 et 3 */
+#conteneur{
+	display: flex;
+}
+
+body,html{
+	
+	
+	color: rgb(00, 00, 00);
+
+}

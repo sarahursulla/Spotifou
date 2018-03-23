@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spotifou</title>
+	<title>Accueil - Spotifou</title>
+		<meta name="description" content="Lecteur media player qui permet d'écouter de la musique au format mp3. Création de playlistes personnalisées. News en temps réel sur l'artiste. Visualisation des paroles de la chanson."> 
+		<!-- css format ordinateur-->
+		<link rel="stylesheet" href="styleAccueilSpot.css"/>
+		<!-- police d'ecriture maven pro-->
+
+		<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
+		<!-- responsive-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- css format mobile-->
+
+		
+</head>
+<body>
+	
+	<section id="accueil">			<!-- Texte premier bloc "titre"-->
+				<div class="Titre">
+					<h1>Spotifou</h1>
+					<h3>Ecoutez vos musiques en toute libertée</h3>
+					
+				</div>
+	</section>
+
+	<section id="conteneur">
+		    <div class="container-left">
+
+				<div class="news1">
+								<h2>News</h2>
+								<h3>Toutes les infos sur votre artiste</h3>
+								<iframe id="wiki" src="https://fr.wikipedia.org/wiki/Rihanna" width="500" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" scrolling="auto"></iframe>
+
+								
+				</div>	
+							
+				<div class="news2">
+								<h1>Paroles</h1>
+								<h3>Chantez en direct</h3>
+				</div>				
+				
+            </div>
+            <div class="container-right">
+
+				<div class="mp3">
+					<audio id="audiomp3" src=""> 
+					<p>
+						test
+					</p>
+					<source src="" id="smp">
+						
+					</audio>	
+								<h1>Lecteur MP3</h1>
+								<h3>Ecoutez votre musique</h3>
+					<ul>
+						<li id="mp31">marin-gale-ultraviolette-cappuccino-this-could-be-heaven.mp3</li>
+						<li id="mp32">Rihanna - Diamonds.mp3</li>
+						<li id="mp33">Rihanna - Man Down.mp3</li>
+					</ul>
+					<audio src="Rihanna - Diamonds.mp3" controls></audio>	
+
+					<iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXdrln2UyZD7F" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+							
+				</div>
+            </div>	
+		</div>		
+	</section>
+
+<script type="text/javascript" src="mp3Spot.js"></script>
+</body>
+</html>
